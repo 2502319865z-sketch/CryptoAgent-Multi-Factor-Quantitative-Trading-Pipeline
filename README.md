@@ -4,6 +4,12 @@ An end-to-end research pipeline for building and evaluating cryptocurrency facto
 
 > **Research use only.** This repository is an experimental analytics project, not financial advice or a production trading system. Backtested performance does not guarantee future results.
 
+## Live demo
+
+**[Open the CryptoAgent web application](https://ao1rmhklbtp7.trickle.host)**
+
+The web interface was designed and built by Kengtao Wu. The deployment was verified as reachable on September 10, 2026.
+
 ## What the project does
 
 - Downloads daily OHLCV data for top cryptocurrencies from the CoinDesk Data API.
@@ -65,7 +71,12 @@ The market-factor and news branches are separate workflows. The extended sentime
 | `news_pipeline.py` | Sentiment/return merge, differencing, cross-correlation, lag correlation, and Granger tests. |
 | `run_news_pipeline.py` | Driver for sentiment-versus-return diagnostics. |
 
-The two PDF files in the repository are supporting project documents and are not required by the Python pipeline.
+## Research reports
+
+- [Part A: Data Design and Analysis](CryptoAgent_Part_A_Data_Design_and_Analysis.pdf) - Kengtao Wu, July 24, 2025
+- [Part B: Model Design and Implementation](CryptoAgent_Part_B_Model_Design_and_Implementation.pdf) - Kengtao Wu, August 6, 2025
+
+These reports document the design rationale behind CryptoAgent. They are not required to run the Python pipeline.
 
 ## Requirements
 
