@@ -8,6 +8,8 @@ An end-to-end research pipeline for building and evaluating cryptocurrency facto
 
 **[Open the CryptoAgent web application](https://ao1rmhklbtp7.trickle.host)**
 
+[View the standalone live-demo link page](CryptoAgent_Live_Demo_Link.pdf)
+
 The web interface was designed and built by Kengtao Wu. The deployment was verified as reachable on September 10, 2026.
 
 ## What the project does
